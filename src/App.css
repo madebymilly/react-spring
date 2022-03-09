@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.Physics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.Physics__divider {
+  width: 20rem;
+  height: 4px;
+  background: grey;
+}
+
+.Physics__A,
+.Physics__B {
+  width: 2rem;
+  height: 2rem;
+  background: yellowgreen;
+  text-align: center;
+  line-height: 2rem;
+}
+
+button {
+  background: yellowgreen;
+  border: 0;
+  width: 8rem;
+  height: 2rem;
+  line-height: 2rem;
+  cursor: pointer;
+}
