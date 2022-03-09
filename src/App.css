@@ -3,14 +3,16 @@
 }
 
 .Physics {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   margin: 2rem auto;
+  width: 20rem;
+  position: relative;
 }
 
 .Physics__divider {
-  width: 20rem;
+  /* width: 20rem; */
   height: 4px;
   background: grey;
 }
@@ -22,6 +24,14 @@
   background: yellowgreen;
   text-align: center;
   line-height: 2rem;
+  top: -1rem;
+  left: -2rem;
+  position: absolute;
+}
+
+.Physics__B {
+ left: auto;
+ right: -2rem;
 }
 
 button {
