@@ -20,8 +20,9 @@ export default function Physics() {
           style={{width: props.width.to(w => `${w}%`)}}
         ></animated.div>
         <div className="Physics__B">B</div>
+        <button>STOP</button>
       </div>
-      <button>STOP</button>
+      
     </>    
   )
 }

@@ -1,0 +1,20 @@
+.Loader {
+  border: 2px solid black;
+  display: inline-block;
+  padding: 1rem 0;
+  width: 10rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.Loader__fill {
+  background: peachpuff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.Loader__content {
+  position: relative;
+}

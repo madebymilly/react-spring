@@ -1,44 +1,7 @@
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
 
-.Physics {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem auto;
-  width: 20rem;
-  position: relative;
-}
-
-.Physics__divider {
-  /* width: 20rem; */
-  height: 4px;
-  background: grey;
-}
-
-.Physics__A,
-.Physics__B {
-  width: 2rem;
-  height: 2rem;
-  background: yellowgreen;
-  text-align: center;
-  line-height: 2rem;
-  top: -1rem;
-  left: -2rem;
-  position: absolute;
-}
-
-.Physics__B {
- left: auto;
- right: -2rem;
-}
-
-button {
-  background: yellowgreen;
-  border: 0;
-  width: 8rem;
-  height: 2rem;
-  line-height: 2rem;
-  cursor: pointer;
-}
