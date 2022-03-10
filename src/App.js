@@ -2,6 +2,7 @@ import './App.css';
 
 import Physics from './Physics';
 import Loader from './Loader';
+import Slider from './Slider';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main>
         <Physics />
         <Loader />
+        <Slider />
       </main>
 
     </div>

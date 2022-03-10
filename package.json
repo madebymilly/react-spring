@@ -11,6 +11,7 @@
     "react-scripts": "5.0.0",
     "react-spring": "^9.4.3",
     "react-use": "^17.3.2",
+    "react-useinterval": "^1.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
