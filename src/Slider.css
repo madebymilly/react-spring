@@ -1,6 +1,16 @@
+
 .Slider {
   width: 600px;
   height: 400px;
   background: lightblue;
   margin: 0 auto;
+  position: relative;
+}
+
+.Slider__item {
+  width: 600px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  position: absolute;
 }
