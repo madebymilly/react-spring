@@ -1,0 +1,21 @@
+.ClickToAnimateMultiple {
+  position: relative;
+  height: 20rem;
+}
+
+.ClickToAnimateMultiple__divs {
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  margin: 3rem auto;
+}
+
+.ClickToAnimateMultiple__div {
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: lightgrey;
+}
