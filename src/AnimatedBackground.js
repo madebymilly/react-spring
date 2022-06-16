@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { useSprings, animated } from "react-spring";
+import { useSprings, animated } from "react-spring"
 
 import './AnimatedBackground.css'
 
